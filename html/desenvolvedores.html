@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Desenvolvedores</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style_camisas.css">
+
+<style>
+
+/* garante footer no final da tela */
+body{
+display:flex;
+flex-direction:column;
+min-height:100vh;
+}
+
+main{
+flex:1;
+}
+
+/* aumenta um pouco os cards */
+.dev-card{
+width: 320px;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index:999;">
+<div class="container col-11 m-auto">
+
+<a class="navbar-brand" href="../index.html">Senai Camisas</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarContent">
+
+<ul class="navbar-nav me-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="../index.html">Home</a>
+</li>
+
+<li class="nav-item dropdown">
+
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+Camisas
+</a>
+
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="../html/camisa1.html">AC Milan</a></li>
+<li><a class="dropdown-item" href="../html/camisa2.html">Real Madrid</a></li>
+<li><a class="dropdown-item" href="../html/camisa3.html">Liverpool</a></li>
+</ul>
+
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="#">Desenvolvedores</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+<br><br><br><br>
+
+<main>
+
+<!-- TÍTULO -->
+<div class="container text-center my-5">
+<h2 class="text-white">Equipe de Desenvolvimento</h2>
+<p class="text-secondary">Projeto desenvolvido no SENAI</p>
+</div>
+
+<!-- CARDS -->
+<div class="container">
+
+<div class="row g-4 justify-content-center">
+
+<div class="col-md-3">
+<div class="card dev-card text-center">
+<img src="../joaoG-copia.JPG" class="dev-img" alt="João">
+<div class="card-body">
+<h5 class="card-title">João Gustavo Mota Ramos</h5>
+<p class="card-text">joaogustavo2202@gmail.com</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card dev-card text-center">
+<img src="../koba.png" class="dev-img" alt="Victor">
+<div class="card-body">
+<h5 class="card-title">Victor Luiz Koba Batista</h5>
+<p class="card-text">victorkoba08@gmail.com</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card dev-card text-center">
+<img src="../joaoP-copia.JPG" class="dev-img" alt="João Pedro">
+<div class="card-body">
+<h5 class="card-title">João Pedro da Cunha Machado</h5>
+<p class="card-text">jotapepe.machado@gmail.com</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card dev-card text-center">
+<img src="../vitorio.png" class="dev-img" alt="Vitório">
+<div class="card-body">
+<h5 class="card-title">Vitório Fraga Motta</h5>
+<p class="card-text">vitorio.fraga@gmail.com</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+Desenvolvido por João Gustavo, João Pedro, Victor Koba e Vitório
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
